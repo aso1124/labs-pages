@@ -1,0 +1,33 @@
+.nav-list {
+  border-bottom: 1px solid #E7E9E9;
+  display: flex;
+  max-width: 100%;
+  padding: 0 8px;
+}
+
+.nav-item {
+  color: #283636;
+  cursor: pointer;
+  line-height: 16px;
+  padding: 0 8px;
+  text-align: center;
+  transition: color 125ms cubic-bezier(.23,1,.32,1);
+}
+
+.nav-item.selected {
+  color: #151D1D;
+}
+
+.nav-item-label {
+  border-bottom: 2px solid transparent;
+  display: block;
+  min-width: 32px;
+  padding: 8px 0;
+  transition: border-bottom-color .5s cubic-bezier(.23,1,.32,1);
+}
+
+.nav-item-label.selected {
+  border-bottom-color: #151D1D;
+  font-weight: 600;
+}
+

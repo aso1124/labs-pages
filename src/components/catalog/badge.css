@@ -1,0 +1,29 @@
+
+.badge {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 0 4px;
+  vertical-align: middle;
+}
+
+.badge.viz {
+  background-color: #C6F2F6;
+  color: #02636B;
+}
+
+.badge.data {
+  background-color: #FDF2C4;
+  color: #864700;
+}
+
+.badge.community {
+  background-color: #BDF7D7;
+  color: #026747;
+}
+
+.badge.neutral {
+ background-color: #E7E9E9; 
+ color: #556060;
+}
